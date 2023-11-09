@@ -11,13 +11,37 @@
     <nav class="navbar">
         <img src="./dansballslogo.png" alt="Dan's Balls logo" height="75"></a>    
         <ul>
-            <li><a class="navoptions" href="./index..html">Home Page</a></li>
+            <li><a class="navoptions" href="./index.html">Home Page</a></li>
             <li><a class="navoptions" href="#">Gallery Page</a></li>
             <li><a class="navoptions" href="./contactus.html">Contact Us Page</a></li>
             <li><input type="text" placeholder="Search.."></li>
         </ul>
     </nav>
+    <div class="contactusmain">
+        <a class="emaillink" href="mailto:danielfree756@gmail.com">Send us an email</a>
+        <a  class="phonelink" href="tel:6232188463">Phone (+1)623-218-8463</a>
+</div>
     <hr>
+    <div class="container"><h1>Contact Us</h1></div>
+    <div class="container">
+        <form method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script>
+        const button = document.getElementById("myButton")
+        const thankYou = document.getElementById("thankYou")
 
+        //whenever the button is clicked, toggle the ".hidden" class
+        button.addEventListener("click", ()=>{
+            thankYou.classList.toggle("hidden")
+        })
+      </script>
+    <div class="footer">
+            <p>&copy; 2023 Dan's Balls. All rights reserved.</p>
+    </div>
 </body>
 </html>
