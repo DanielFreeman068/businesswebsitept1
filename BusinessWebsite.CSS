@@ -5,6 +5,7 @@ html{
 
 body{
     background-color: white;
+    width:100%;
 }
 
 .navbar{
@@ -70,6 +71,7 @@ ul {
     display:flex;
     justify-content: center;
     font-size:xx-large;
+    margin:3rem;
 }
 
 .contact{
@@ -84,9 +86,9 @@ ul {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: absolute;
     bottom: 0;
-    width: 100%;
+    width:97.75%;
+    margin-top:3rem;
 }
 
 .emaillink{
@@ -116,4 +118,28 @@ ul {
 .contactusmain:hover{
     border-radius:50px;
     background-color: gray;
+}
+
+.first{
+    font-weight: bolder;
+    text-align: center;
+    color:black;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.second{
+    font-weight: bolder;
+    text-align: center;
+    color:black;
+    font-size:x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.third{
+    font-weight: bolder;
+    text-align: center;
+    color:black;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
