@@ -26,54 +26,55 @@
                         <span>First Name:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="text" id="fname" name="fname">
+                        <input type="text" id="fname" name="fname" required>
                     </p>
                     <p>
                         <label for="lname">
                         <span>Last Name:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="text" id="lname" name="lname">
+                        <input type="text" id="lname" name="lname" required>
                     </p>
                     <p>
                         <label for="mail">
                         <span>E-Mail:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="email" name="usermail" id="mail">
+                        <input type="email" name="usermail" id="mail" required>
                     </p>
                     <p>
                         <label for="password">
                         <span>Password:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="password" name="password" id="pwd">
+                        <input type="password" name="password" id="pwd" required>
                     </p>
                     <p>
                         <label for="state">
                         <span>State:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="state" name="state" id="state">
+                        <input type="state" name="state" id="state" required>
                     </p>
                     <p>
                         <label for="city">
                         <span>City:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="city" name="city" id="city">
+                        <input type="city" name="city" id="city" required>
                     </p>
                     <p>
                         <label for="zip">
                         <span>Zip Code:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="zip" name="zip" id="zip">
+                        <input type="zip" name="zip" id="zip" required>
                     </p>
                 <h2>Payment Information</h2>
                     <p>
                         <label for="card">
                         <span>Card Type:</span>
+                        <strong><abbr title="required">*</abbr></strong>
                         </label>
                         <select name="usercard" id="card">
                         <option value="Visa">Visa</option>
@@ -87,7 +88,7 @@
                         <span>Card Number:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="tel" id="number" name="cardnumber">
+                        <input type="tel" id="number" name="cardnumber" required>
                     </p>
                 <h2>Order Information</h2>
                     <p>
@@ -95,14 +96,14 @@
                         <span>Order Quanity:</span>
                         <strong><abbr title="required">*</abbr></strong>
                     </label>
-                    <input type="tel" id="number" name="ducknumber">
+                    <input type="tel" id="number" name="ducknumber" required>
                     </p>
                     <p>
                         <label for="address">
                         <span>Shipping Address:</span>
                         <strong><abbr title="required">*</abbr></strong>
                         </label>
-                        <input type="tel" id="address" name="addressshipping">
+                        <input type="tel" id="address" name="addressshipping" required>
                     </p>
                     <p>
                         <label for="apartment">
@@ -111,8 +112,9 @@
                         <input type="tel" id="apartment" name="apartmentshipping">
                     </p>
                     <p>
-                        <label for="birthday">Birthday:</label>
-                        <input type="date" id="birthday" name="birthday">
+                        <label for="birthday">Birthdate:</label>
+                        <strong><abbr title="required">*</abbr></strong>
+                        <input type="date" id="birthday" name="birthday" required>
                     </p>
                             <p>
                         <button class="submit" type="submit">Submit</button>
