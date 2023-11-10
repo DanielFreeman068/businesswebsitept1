@@ -44,7 +44,7 @@
     <hr>
     <div class="container"><h1>Write your Feedback here</h1></div>
     <div class="container">
-        <form>
+        <form onsubmit="return confirm('Thank you for your Feedback');">
             <input type="text" name="name" placeholder="Your Name" required><br>
             <input type="email" name="email" placeholder="Your Email" required><br>
             <textarea name="message" placeholder="Your Message" rows="4" required></textarea><br>
