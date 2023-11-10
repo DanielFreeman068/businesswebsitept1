@@ -115,9 +115,14 @@ ul {
     text-align: center;
 }
 
-.contactusmain:hover{
+.emaillink:hover{
     border-radius:50px;
     background-color: gray;
+}
+
+.phonelink:hover{
+    border-radius:50px;
+    background-color:gray;
 }
 
 .first{
